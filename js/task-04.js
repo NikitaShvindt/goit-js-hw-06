@@ -4,7 +4,7 @@ const decr = document.querySelector('.button[data-action="decrement"]');
 const incr = document.querySelector('.button[data-action="increment"]');
 const span = document.getElementById('#value');
 
-span.addEventListener('click', onAddNumber);
+decr.addEventListener('click', onAddNumber);
 incr.addEventListener('click', onRemoveNumber);
 
 function onAddNumber(value) {
